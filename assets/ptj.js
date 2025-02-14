@@ -153,7 +153,7 @@ const selectedIcon = localStorage.getItem("selected-icon");
 
 // Function to get the current theme and icon state
 const getCurrentTheme = () =>
-  document.body.classList.contains(darkTheme) ? "dark" : "light";
+  document.body.classList.contains(darkTheme) ? "light" : "dark";
 const getCurrentIcon = () =>
   themeButton.classList.contains(iconTheme) ? "uil-moon" : "uil-sun";
 
